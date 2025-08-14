@@ -1,0 +1,111 @@
+*{
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(89, 90, 106);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* background-color: rgb(69, 64, 64); */
+        background-color: rgb(40 40 40);
+    padding: 25px;
+    border-radius: 10px;
+
+    /* width: 50%; */
+    max-width: 500px;
+}
+
+.usercontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   
+}
+
+.userinput{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+
+}
+
+#inputuser{
+    padding: 0.3rem;
+    width: 80%;
+}
+
+#searchbutton{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.progress{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.progressitem{
+    height: 120px;
+    width: 120px;
+     
+    display: flex;
+    justify-content:end;
+    align-items: center;
+ 
+
+    border-radius: 50%;
+    border: 4px solid #ffa116;
+    font-size: 1rem;
+    font-weight: 700;
+
+    flex-direction: column;
+     background: conic-gradient(#299f5d var(--progress-degree, 0%), #283a2e 0%);
+
+     padding-bottom: 1rem;
+     
+}
+
+.progress p{
+    font-size: 0.8rem;
+}
+.card{
+    background-color: #ffffff0f;
+    padding: 20px;
+    border-radius: 15px;
+    /* width: 50%; */
+    width: 200px;
+
+    border: 1rem azure;
+
+    text-align: center;
+}
+
+.stats-card{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+ 
+.stats-container{
+    display: none;
+}
